@@ -1,0 +1,8 @@
+C:\Users\Альтаир\Desktop\Новая папка\Новая папка\bin\Debug\Gauss.exe
+C:\Users\Альтаир\Desktop\Новая папка\Новая папка\bin\Debug\Gauss.pdb
+C:\Users\Альтаир\Desktop\Новая папка\Новая папка\obj\Debug\Gauss.AboutBox.resources
+C:\Users\Альтаир\Desktop\Новая папка\Новая папка\obj\Debug\Gauss.MainForm.resources
+C:\Users\Альтаир\Desktop\Новая папка\Новая папка\obj\Debug\Gauss.Properties.Resources.resources
+C:\Users\Альтаир\Desktop\Новая папка\Новая папка\obj\Debug\Gauss.csproj.GenerateResource.Cache
+C:\Users\Альтаир\Desktop\Новая папка\Новая папка\obj\Debug\Gauss.exe
+C:\Users\Альтаир\Desktop\Новая папка\Новая папка\obj\Debug\Gauss.pdb
