@@ -1,5 +1,7 @@
-namespace Gauss {
-    partial class AboutBox {
+namespace Gauss
+{
+    partial class AboutBox
+    {
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -8,8 +10,10 @@ namespace Gauss {
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
-        protected override void Dispose(bool disposing) {
-            if (disposing && (components != null)) {
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
                 components.Dispose();
             }
             base.Dispose(disposing);
@@ -21,7 +25,8 @@ namespace Gauss {
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent() {
+        private void InitializeComponent()
+        {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutBox));
             this.tableLayoutPanel = new System.Windows.Forms.TableLayoutPanel();
             this.textBoxDescription = new System.Windows.Forms.TextBox();
@@ -55,6 +60,7 @@ namespace Gauss {
             // textBoxDescription
             // 
             this.textBoxDescription.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxDescription.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBoxDescription.Location = new System.Drawing.Point(143, 3);
             this.textBoxDescription.Margin = new System.Windows.Forms.Padding(6, 3, 3, 3);
             this.textBoxDescription.Multiline = true;
@@ -64,17 +70,18 @@ namespace Gauss {
             this.textBoxDescription.Size = new System.Drawing.Size(271, 214);
             this.textBoxDescription.TabIndex = 23;
             this.textBoxDescription.TabStop = false;
-            this.textBoxDescription.Text = "....";
+            this.textBoxDescription.Text = "Программа предназначена для решения СЛАУ методом Гаусса. Используя этот  калькуля" +
+                "тор, вы сможете очень просто и быстро найти решение системы.";
             // 
             // okButton
             // 
             this.okButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.okButton.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.okButton.Location = new System.Drawing.Point(339, 239);
+            this.okButton.Image = ((System.Drawing.Image)(resources.GetObject("okButton.Image")));
+            this.okButton.Location = new System.Drawing.Point(339, 223);
             this.okButton.Name = "okButton";
-            this.okButton.Size = new System.Drawing.Size(75, 23);
+            this.okButton.Size = new System.Drawing.Size(75, 39);
             this.okButton.TabIndex = 24;
-            this.okButton.Text = "&OK";
             // 
             // logoPictureBox
             // 
